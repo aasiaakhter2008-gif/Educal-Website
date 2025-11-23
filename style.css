@@ -1,0 +1,891 @@
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header start */
+header {
+    background-color: white;
+    height: auto;
+    width: 100%;
+    padding: 15px 0px;
+    position: fixed;
+    top: 0px;
+    box-shadow: 0px 0px 10px 7px #eae2e2bf;
+    z-index: 100000;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header nav div.logo img {
+    height: 34px;
+}
+
+header nav .category {
+    display: flex;
+    align-items: center;
+}
+
+header nav .category img {
+    height: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    color: rgb(0, 179, 0);
+    cursor: pointer;
+}
+
+header nav .nav-options {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-options ul {
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-options ul li {
+    list-style-type: none;
+    padding: 0px 10px;
+}
+
+header nav .nav-options .nav-btn img {
+    height: 25px;
+    margin: 0px 10px;
+}
+
+header nav .nav-options .nav-btn button {
+    margin: 0px 10px;
+    background-color: white;
+    border: 0px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* header end */
+
+/* section:hero start */
+section.hero {
+    height: auto;
+    padding: 0px 40px;
+    padding-top: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(193, 224, 236);
+}
+
+section.hero .hero-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 80px;
+}
+
+section.hero .hero-text p {
+    margin: 15px 0px;
+    font-size: 19px;
+}
+
+section.hero .hero-text h4 {
+    margin: 15px 0px;
+    color: rgb(63, 149, 220);
+    font-size: 19px;
+}
+
+section.hero .hero-text input {
+    padding: 10px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+section.hero .hero-img img {
+    height: 570px;
+}
+
+section.hero .hero-img .text {
+    background-color: white;
+    width: max-content;
+    height: max-content;
+    padding: 15px;
+    font-size: 13px;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.407);
+}
+
+section.hero .hero-img .text img {
+    height: 20px;
+}
+
+section.hero .hero-img .text p {
+    line-height: 18px;
+}
+
+section.hero .hero-img .text-1 {
+    bottom: 340px;
+}
+
+section.hero .hero-img .text-2 {
+    bottom: 290px;
+    left: 150px;
+}
+
+section.hero .hero-img .text-3 {
+    bottom: 190px;
+}
+
+/* section:hero end */
+
+/* section:scholercity start */
+section.scholercity {
+    height: auto;
+    width: 95%;
+    padding: 50px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+section.scholercity h1 {
+    font-size: 40px;
+}
+
+section.scholercity p {
+    margin: 30px 0px;
+}
+
+section.scholercity .scholercity-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section.scholercity .scholercity-card .card {
+    padding: 20px;
+    height: 350px;
+    width: 23%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+section.scholercity .scholercity-card .card:hover {
+    transform: translateY(-8px);
+    transition: 0.5s;
+}
+
+section.scholercity .scholercity-card .card-1 {
+    background-color: rgb(0, 140, 255);
+}
+
+section.scholercity .scholercity-card .card-2 {
+    background-color: rgb(255, 0, 115);
+}
+
+section.scholercity .scholercity-card .card-3 {
+    background-color: rgb(163, 0, 163);
+}
+
+section.scholercity .scholercity-card .card-4 {
+    background-color: rgb(0, 164, 164);
+}
+
+section.scholercity .scholercity-card .card h1,
+section.scholercity .scholercity-card .card h2,
+section.scholercity .scholercity-card .card p {
+    margin: 30px 0px;
+}
+
+/* section:scholercity end */
+
+/* section:acheive start */
+section.acheive {
+    width: 92%;
+    height: auto;
+    padding: 50px 0px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+section.acheive img {
+    width: 40%;
+    margin: 0px 100px;
+    border-radius: 10px;
+}
+
+section.acheive .acheive-text {
+    width: 60%;
+}
+
+section.acheive .acheive-text h1 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+section.acheive .acheive-text p {
+    margin: 20px 0px;
+    line-height: 25px;
+    color: rgb(109, 109, 109);
+}
+
+section.acheive .acheive-text p.point {
+    font-size: 20px;
+}
+
+section.acheive .acheive-text p.point span {
+    color: rgb(0, 179, 0);
+}
+
+section.acheive .acheive-text button {
+    padding: 15px 20px;
+    border: 0px;
+    border-radius: 7px;
+    background-color: rgb(0, 179, 0);
+    color: white;
+    font-size: 16px;
+}
+
+/* section:acheive end */
+
+/* section:course start */
+section.course {
+    background-color: rgba(214, 202, 186, 0.781);
+    height: auto;
+    padding: 70px 40px;
+}
+
+section.course h1 {
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 60px;
+}
+
+section.course p {
+    margin: 5px 0px;
+    color: rgb(109, 109, 109);
+    font-weight: bold;
+}
+
+section.course .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.course .cards .course-card {
+    width: 29.9%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.233);
+    background-color: white;
+    margin: 20px;
+    position: relative;
+}
+
+section.course .cards .course-card:hover {
+    transform: translateY(-8px);
+    transition: 0.5s;
+}
+
+section.course .cards .course-card img {
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+section.course .cards .course-card .card-tag {
+    display: flex;
+    position: absolute;
+    bottom: 75%;
+    margin: 10px 20px;
+    gap: 10px;
+}
+
+section.course .cards .course-card .card-tag p {
+    font-size: 13px;
+    font-weight: lighter;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+section.course .cards .course-card .card-lesson {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.course .cards .course-card .card-lesson p {
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 0px 5px;
+}
+
+section.course .cards .course-card h2 {
+    font-size: 18px;
+    padding: 7px 5px;
+}
+
+section.course .cards .course-card h3 {
+    padding: 9px 5px;
+    font-size: 17px;
+}
+
+section.course .cards .course-card .card-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+}
+
+section.course .cards .course-card .card-footer p {
+    color: rgb(0, 140, 255);
+}
+
+section.course .cards .course-card .card-footer button {
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 0px 5px;
+    border: none;
+    background-color: white;
+    color: rgb(109, 109, 109);
+}
+
+/* section:course end */
+
+/* section:skill start */
+section.skill {
+    background-color: white;
+    padding: 70px;
+}
+
+section.skill h1 {
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 60px;
+    text-align: center;
+}
+
+section.skill p {
+    color: rgb(109, 109, 109);
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+    margin: 10px auto;
+    line-height: 24px;
+}
+
+section.skill .skill-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+}
+
+section.skill .skill-cards .card {
+    width: 47%;
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section.skill .skill-cards .card:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+section.skill .skill-cards .card img {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+section.skill .skill-cards .card .text {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.546);
+    border: none;
+    border-radius: 10px;
+    top: 0px;
+    color: white;
+}
+
+section.skill .skill-cards .card .text h2 {
+    width: 80%;
+    margin: 23% auto 0px auto;
+    font-size: 25px;
+}
+
+section.skill .skill-cards .card .text button {
+    padding: 15px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+section.skill .skill-cards .card .text button:hover {
+    background-color: rgba(255, 255, 255, 0.297);
+    cursor: pointer;
+}
+
+/* section:skill end */
+
+/* section:proud start */
+section.proud {
+    background-color: white;
+    padding: 70px;
+}
+
+section.proud h1 {
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 60px;
+    text-align: center;
+}
+
+section.proud p {
+    text-align: center;
+    margin: 10px auto;
+    line-height: 24px;
+}
+
+section.proud .proud-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+section.proud .proud-cards h1 {
+    font-size: 50px;
+}
+
+section.proud .proud-cards p {
+    font-weight: bold;
+}
+
+/* section:proud end */
+
+/* section:share start */
+section.share {
+    text-align: center;
+}
+
+/* section:share end */
+
+/* section:link start */
+section.link {
+    background-color: white;
+    padding: 40px 20px;
+}
+
+section.link .link-btn {
+    padding: 50px 0px;
+    background: linear-gradient(to right, blue, orange);
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section.link .link-btn h1 {
+    font-weight: normal;
+
+}
+
+section.link .link-btn .btn {
+    display: flex;
+    gap: 20px;
+}
+
+section.link .link-btn .btn button {
+    padding: 10px;
+    font-size: 16px;
+    width: 120px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+section.link .link-btn .btn button.app-store {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+section.link .link-btn .btn button.app-store:hover {
+    color: blue;
+    background-color: white;
+    transition: 0.5s;
+}
+
+section.link .link-btn .btn button.play-store {
+    color: blue;
+}
+
+section.link .link-btn .btn button.play-store:hover {
+    background-color: rgb(255, 113, 61);
+    border-color: rgb(255, 113, 61);
+    color: white;
+    transition: 0.5s;
+}
+
+/* section:link end */
+
+/* footer start */
+footer {
+    padding: 30px;
+    background-color: rgba(214, 202, 186, 0.781);
+}
+
+footer .footer-contact {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+footer .footer-contact div {
+    width: 22%;
+}
+
+footer .footer-contact .logo img {
+    height: 35px;
+}
+
+footer .footer-contact .logo p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .footer-contact .logo .social {
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer .footer-contact .logo .social img {
+    height: 20px;
+    margin-top: 20px;
+}
+
+footer .footer-contact .quick,
+footer .footer-contact .recent,
+footer .footer-contact .subscribe {
+    text-align: center;
+}
+
+footer .footer-contact ul li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+footer .footer-bottom {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+@media (max-width: 1400px) {
+    section.course .cards {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 1250px) {
+
+    /* scholercity section */
+    section.scholercity .scholercity-card .card {
+        height: auto;
+    }
+
+    /* course section */
+    section.course .cards .course-card {
+        width: 47%;
+        margin: 10px 0px;
+    }
+
+    section.course .cards .course-card p {
+        font-size: 15px;
+    }
+
+    section.course .cards .course-card h2 {
+        font-size: 19px;
+    }
+
+    section.course .cards .course-card p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1040px) {
+
+    /* hero section */
+    section.hero .hero-text h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 15px;
+        line-height: 70px;
+    }
+
+    section.hero .hero-img img {
+        height: 470px;
+    }
+
+    section.hero .hero-img .text {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    section.hero .hero-img .text img {
+        height: 20px;
+    }
+
+    section.hero .hero-img .text p {
+        line-height: 18px;
+    }
+
+    section.hero .hero-img .text-1 {
+        bottom: 300px;
+    }
+
+    section.hero .hero-img .text-2 {
+        bottom: 250px;
+        left: 150px;
+    }
+
+    section.hero .hero-img .text-3 {
+        bottom: 150px;
+    }
+
+    /* acheive section */
+    section.acheive img {
+        width: 30%;
+        margin: 0px 50px;
+        border-radius: 10px;
+    }
+}
+
+
+@media (max-width: 861px) {
+
+    /* nav bar */
+    header nav div.logo img {
+        height: 30px;
+    }
+
+    header nav .category img {
+        height: 20px;
+    }
+
+    header nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+
+    header nav .nav-options .nav-btn img {
+        height: 20px;
+    }
+
+    header nav .nav-options .nav-btn button {
+        font-size: 16px;
+    }
+
+    /* hero section */
+    section.hero .hero-text {
+        text-align: center;
+    }
+
+    /* scholercity section */
+    section.scholercity .scholercity-card .card {
+        padding: 5px;
+        height: max-content;
+        width: 48%;
+        margin-top: 10px;
+    }
+
+    /* skill section */
+    section.skill .skill-cards .card {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    /* link section */
+    section.link .link-btn h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    section.link .link-btn .btn {
+        margin-top: 15px;
+    }
+
+    section.link .link-btn .btn button {
+        padding: 10px;
+        font-size: 16px;
+        width: 120px;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* nav bar */
+    header nav div.logo img {
+        height: 25px;
+    }
+
+    header nav .category img {
+        height: 15px;
+    }
+
+    header nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+
+    header nav .nav-options .nav-btn img {
+        height: 15px;
+    }
+
+    header nav .nav-options .nav-btn button {
+        font-size: 13px;
+    }
+
+    /* acheive section */
+    section.acheive img {
+        width: 30%;
+        margin: 0px 30px;
+    }
+
+    section.acheive .acheive-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    section.acheive .acheive-text p {
+        margin: 10px 0px;
+        line-height: 15px;
+        font-size: 13px;
+    }
+
+    section.acheive .acheive-text p.point {
+        font-size: 15px;
+    }
+
+    section.acheive .acheive-text button {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    /* coarse section */
+
+    section.course .cards .course-card {
+        width: 97%;
+        margin: 10px 0px;
+        height: fit-content;
+    }
+
+    section.course .cards .course-card img {
+        height: 200px;
+    }
+
+    section.course .cards .course-card p {
+        font-size: 10px;
+    }
+
+    section.course .cards .course-card h2 {
+        font-size: 14px;
+    }
+
+    section.course .cards .course-card p {
+        font-size: 13px;
+    }
+
+    /* proud section */
+    section.proud .proud-cards h1 {
+        font-size: 45px;
+    }
+
+    section.proud .proud-cards p {
+        font-size: 15px;
+    }
+
+    /* link section */
+    section.link .link-btn h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 28px;
+    }
+
+    section.link .link-btn .btn {
+        margin-top: 15px;
+    }
+
+    section.link .link-btn .btn button {
+        padding: 10px;
+        font-size: 16px;
+        width: 120px;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+
+    /* footer */
+    footer .footer-contact .logo img {
+        height: 30px;
+    }
+
+    footer .footer-contact .logo p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    footer .footer-contact .quick,
+    footer .footer-contact .recent,
+    footer .footer-contact .subscribe {
+        font-size: 14px;
+    }
+
+    footer .footer-contact ul li {
+        margin-top: 10px;
+    }
+}
